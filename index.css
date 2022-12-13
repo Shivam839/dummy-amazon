@@ -1,0 +1,98 @@
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 622px;
+}
+.contact_details{
+    width: 31%;
+    border: 1px solid red;
+}
+.contact_details .navBar{
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact_details .navBar .icon{
+    width: 73%;
+    margin-right: 25px;
+    justify-content: flex-end;
+}
+.contact_details .navBar .icon img{
+    margin-left: 10px;
+    padding: 10px;
+}
+.contact_details .navBar .icon  .alters{
+    border-radius: none;
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+}
+
+.contact_details .navBar .icon img:hover{
+    cursor: pointer;
+}
+.searchBar{
+
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.search{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    
+    /* border: 1px solid red; */
+}
+.search i{
+    color: white;
+    font-size: 0.9rem;
+}
+.searchBar input{
+    /* justify-content: flex-start; */
+    /*  */
+    border-radius: 8px;
+    background-color: rgb(32,44,51);
+    color: aliceblue;
+    border: 0;
+    outline: none;
+    width: 80%;
+    text-align: left;
+}
+.searchBar input ::placeholder{
+    text-align: left;
+}
+
+.chatbox{
+    width: 69%;
+    border: 1px solid green;
+    background-color: rgb(0, 128, 105);
+}
+.chatbox img{
+    height:100%;
+    width: 100%;
+}
+.chatbg{
+    width: 100%;
+    height: 500px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    
+}
+.chat{
+    width: 100%;
+    height: 100px;
+    border-bottom: 0.01px solid rgb(100, 100, 100);
+}
+.chat:hover{
+    background-color: rgb(42,57,66);
+}
